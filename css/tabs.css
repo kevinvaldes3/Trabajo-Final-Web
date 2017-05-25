@@ -1,0 +1,52 @@
+#acordeonServicios{
+	width: 951px;
+	height: 303px;
+}
+
+#tabs{
+	background: #5296a3;
+	padding: 10px;
+	text-align: center;
+}
+
+#tabs a{
+	color: #000000;
+	font-size: 14px;
+	padding: 9px 11px 11px 11px;
+	text-decoration: none;
+	-moz-transition:all .5s;
+	-o-transition:all .5s;
+	-ms-transition:all .5s;
+	-webkit-transition:all .5s;
+	transition:all .5s;
+
+	-webkit-text-shadow:1px 1px 5px rgba(0,0,0,0.5);
+	-moz-text-shadow:1px 1px 5px rgba(0,0,0,0.5);
+	-o-text-shadow:1px 1px 5px rgba(0,0,0,0.5);
+	-ms-text-shadow:1px 1px 5px rgba(0,0,0,0.5);
+	text-shadow:1px 1px 5px rgba(0,0,0,0.5);
+}
+
+#tabs a:hover{
+    background-color: #d6e9f7;
+	color: #05143e;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,10);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,10);
+	-o-box-shadow: 0 0 5px rgba(0,0,0,10);
+	-ms-box-shadow: 0 0 5px rgba(0,0,0,10);
+	box-shadow: 0 0 5px rgba(0,0,0,10);
+}
+
+.tabContent{
+	display: none;
+	text-align: center;
+}
+
+.tabContent img{
+	margin-top: 10px;
+}
+
+.tabActual{
+	background: #fff !important;
+}
+
